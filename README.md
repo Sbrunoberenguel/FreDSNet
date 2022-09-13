@@ -16,7 +16,7 @@ To download the weigths used in the article, click [Here](https://drive.google.c
 
 First, we set up a virtual environment with [Anaconda](https://anaconda.org) and activate it as:
 ```bash
-conda env create -f FreDS_env.yml
+conda env create -f FreDSEnv.yaml
 
 conda activate FreDS
 ```
