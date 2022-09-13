@@ -1,0 +1,20 @@
+name: FreDS
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip=20.3
+  - python=3.8
+  - cudatoolkit=11.3  
+  - pytorch=1.11.0
+  - pytorch-mutex=1.0=cuda
+  - torchvision
+  - torchaudio
+  - pip:
+    - numpy==1.21.2
+    - opencv-python==4.5.3.56
+    - Pillow==8.2
+    - tqdm==4.53.0
+    - matplotlib==3.2.1
+    - open3d==0.13.0
+
