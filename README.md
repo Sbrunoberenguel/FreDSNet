@@ -25,13 +25,18 @@ An example of use of our network is:
 ```bash
 python inference.py 
 ```
-where the images from *Example* will be used as input and the output information will be stored in *Results*.
+And, in case you do not have a GPU on your computer:
+```bash
+python inference.py --no_cuda
+```
 
-To generate the 3D reconstruction, run:
+The input images are in *Example* and the output information will be stored in *Results*.
+
+To generate the 3D reconstruction (no GPU is needed), run:
 ```bash
 python room_viewer.py 
 ```
-Obtaining these 3D reconstruction from the images at the top of the repository:
+Obtaining these 3D reconstruction from the images from *Example*:
 
 <p align="center">
 <img src='config/3D_rgb.gif' width=400>
