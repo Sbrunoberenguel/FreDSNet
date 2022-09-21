@@ -49,7 +49,7 @@ def decode(img,d_max):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--pth', required=False, default='ckpt/FreDSNet_ICRA_weights.pth',
+    parser.add_argument('--pth', required=False, default='ckpt/FreDSNet_weights.pth',
                         help='path to load saved checkpoint.')
     parser.add_argument('--root_dir', required=False, default='Example')
     parser.add_argument('--out_dir',  required=False, default='Results')
