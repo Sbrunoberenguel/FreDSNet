@@ -8,7 +8,8 @@ We are glad to present FreDSNet (**Fre**quential **D**epth and **S**emantics **N
 <img src='config/PanoSeg.png' width=400>
 </p>
 
-The presented code belongs to the investigation from a **on review** paper. The arXiv version can be found as: [FreDSNet: Joint Monocular Depth and Semantic Segmentation with Fast Fourier Convolutions](https://scholar.google.com/citations?user=LumAxQsAAAAJ&hl=es).
+The presented code belongs to the investigation from a **on review** paper. 
+<!-- The arXiv version can be found as: [FreDSNet: Joint Monocular Depth and Semantic Segmentation with Fast Fourier Convolutions](https://scholar.google.com/citations?user=LumAxQsAAAAJ&hl=es). -->
 
 # Code
 We provide our original implementation of **FreDSNet** and the code for obtaining the corresponding depth and semantic maps from equirectangular panoramas. We also provide a little code for 3D reconstruction of the environment taking as input the depth maps generated with our network.
