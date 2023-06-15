@@ -15,9 +15,10 @@ The presented code belongs to the investigation from the paper accepted on ICRA2
 
 # Code
 We provide our original implementation of **FreDSNet** and the code for obtaining the corresponding depth and semantic maps from equirectangular panoramas. We also provide a little code for 3D reconstruction of the environment taking as input the depth maps generated with our network.
-To download the weigths used in the article, click [Here](https://drive.google.com/file/d/1m77CfwUGj6DlxRjheoO1sRxPdKewUbMK/view?usp=sharing)
 
-First, we set up a virtual environment with [Anaconda](https://anaconda.org) and activate it as:
+First, [download the weigths](https://drive.google.com/file/d/1m77CfwUGj6DlxRjheoO1sRxPdKewUbMK/view?usp=sharing) used in the article in the `ckpt` directory. Create `ckpt` if it does not exist. The program will use the model in there.
+
+Next, set up a virtual environment with [Anaconda](https://anaconda.org) and activate it as:
 ```bash
 conda env create -f FreDSEnv.yaml
 
