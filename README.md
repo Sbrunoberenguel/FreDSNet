@@ -8,7 +8,7 @@ We are glad to present FreDSNet (**Fre**quential **D**epth and **S**emantics **N
 <img src='config/PanoSeg.png' width=400>
 </p>
 
-The presented code belongs to the investigation from the paper accepted on ICRA2023. The arXiv version can be found as: [FreDSNet: Joint Monocular Depth and Semantic Segmentation with Fast Fourier Convolutions](https://arxiv.org/abs/2210.01595).
+The presented code belongs to the investigation from the paper accepted on ICRA2023. The conference paper can be found as: [FreDSNet: Joint Monocular Depth and Semantic Segmentation with Fast Fourier Convolutions from Single Panoramas](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10161142).
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/fredsnet-joint-monocular-depth-and-semantic/depth-estimation-on-stanford2d3d-panoramic)](https://paperswithcode.com/sota/depth-estimation-on-stanford2d3d-panoramic?p=fredsnet-joint-monocular-depth-and-semantic)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/fredsnet-joint-monocular-depth-and-semantic/semantic-segmentation-on-stanford2d3d-1)](https://paperswithcode.com/sota/semantic-segmentation-on-stanford2d3d-1?p=fredsnet-joint-monocular-depth-and-semantic)
